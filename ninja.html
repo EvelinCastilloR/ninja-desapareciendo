@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+ <script>
+
+     $(document).ready(function () {
+
+         $('img').click(function () { 
+             $(this).hide();
+             
+         });   
+
+        
+         $('input').click(function() {
+            $('img').show('fast');
+
+        });
+        
+         
+     });
+
+
+ </script>
+    
+    <title>Document</title>
+</head>
+<body>
+
+    <div class="container" style="border: 5px solid black; margin: 0px auto; background-color: rgb(237, 245, 245); text-align: center; width: 700px; height: 600px;"> 
+       <h1> Ninja Desapareciendo</h1>
+
+       <img src="ninja/ninja img.png" alt="" style="padding: 20px;">
+       <img src="ninja/ninja img.png" alt="" style="padding: 20px;">
+       <img src="ninja/ninja img.png" alt="" style="padding: 20px;">
+       <img src="ninja/ninja img.png" alt="" style="padding: 20px;">
+       <img src="ninja/ninja img.png" alt="" style="padding: 20px;">
+       <img src="ninja/ninja img.png" alt="" style="padding: 20px;">
+       <img src="ninja/ninja img.png" alt="" style="padding: 20px;">
+       <img src="ninja/ninja img.png" alt="" style="padding: 20px;">
+
+    </div>
+        
+    <div class="button" style="text-align:center;">
+        <input type="button" id="mostrar" value="restaurar" style="border: 1px solid black; background-color: rgb(177, 177, 232);">
+    </div>
+         
+</body>
+</html>
